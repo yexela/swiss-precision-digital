@@ -38,7 +38,7 @@ export function ContactForm() {
         <Field label="What are you building?" htmlFor="project"><Textarea id="project" name="project" required className="min-h-36" placeholder="Tell us about the product, the users, and where you are today." /></Field>
       </div>
       <Field label="Budget range" htmlFor="budget">
-        <Select name="budget" required><SelectTrigger id="budget"><SelectValue placeholder="Choose a range" /></SelectTrigger><SelectContent><SelectItem value="under-20">Under €20K</SelectItem><SelectItem value="20-50">€20K–50K</SelectItem><SelectItem value="50-100">€50K–100K</SelectItem><SelectItem value="100-plus">€100K+</SelectItem><SelectItem value="unsure">Not sure yet</SelectItem></SelectContent></Select>
+        <Select name="budget" required><SelectTrigger id="budget"><SelectValue placeholder="Choose a range" /></SelectTrigger><SelectContent><SelectItem value="under-20">Under CHF 20K</SelectItem><SelectItem value="20-50">CHF 20K–50K</SelectItem><SelectItem value="50-100">CHF 50K–100K</SelectItem><SelectItem value="100-plus">CHF 100K+</SelectItem><SelectItem value="unsure">Not sure yet</SelectItem></SelectContent></Select>
       </Field>
       <Field label="Timeline" htmlFor="timeline">
         <Select name="timeline" required><SelectTrigger id="timeline"><SelectValue placeholder="Choose a timeline" /></SelectTrigger><SelectContent><SelectItem value="asap">ASAP</SelectItem><SelectItem value="1-3">1–3 months</SelectItem><SelectItem value="3-6">3–6 months</SelectItem><SelectItem value="exploring">Just exploring</SelectItem></SelectContent></Select>
